@@ -1,0 +1,45 @@
+.menu-pad{
+    margin: 2vh 0;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ion-range {
+    --bar-background: #ebeaed;
+    --bar-background-active: #04af84;
+    --bar-height: 8px;
+    --bar-border-radius: 8px;
+    --knob-background: #dddddd;
+    --knob-size: 30px;
+    --pin-background: #ffafcc;
+    --pin-color: #fff;
+  }
+ion-button{
+    --background:#ecf9f5;
+    --color:#2ca485;
+    font-weight: 700;
+    font-size: large;
+}
+
+.slidervalue{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #eafaf5;
+    color: #10ab82;
+}
+
+.doughnut{
+    width: 5vw;
+    height: 5vw;
+}
+
+.sip-button{
+    --background:#00b386;
+    --color:#f1fffb;
+    --border-radius:1rem;
+    margin: 0 2vw;
+}
