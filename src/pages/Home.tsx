@@ -149,7 +149,7 @@ const Home: React.FC = () => {
               <h2>Total Value: ₹{futureValue.toFixed(2)}</h2>
             </IonCardContent>
           </IonCard>
-          <Doughnut data={doughnutData} options={doughnutOptions}/>
+          <Doughnut data={doughnutData} />
         </IonContent>
 
         <IonFooter translucent={true}>
